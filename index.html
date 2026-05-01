@@ -3,42 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STOR KING</title>
+    <title>STOR KING E-Commerce Store</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body dir="ltr">
     <header>
         <h1>Welcome to STOR KING</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="whatsapp">
+            <a href="https://wa.me/your_number_here" target="_blank">Contact us on WhatsApp</a>
+        </div>
     </header>
     <main>
-        <section id="home">
-            <h2>Your One-Stop E-commerce Store</h2>
-            <p>Find the best products at unbeatable prices!</p>
+        <section class="product-catalog">
+            <h2>Our Products</h2>
+            <div class="products">
+                <!-- Product items will be added here -->
+            </div>
         </section>
-        <section id="products">
-            <h2>Featured Products</h2>
-            <p>Check out our latest offerings below!</p>
-            <!-- Product listings will go here -->
-        </section>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>At STOR KING, we are dedicated to providing the best shopping experience.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Have questions? <a href="mailto:info@stor-king.com">Email us</a>!</p>
+        <section class="admin-panel">
+            <h2>Admin Panel</h2>
+            <form action="#">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 STOR KING. All Rights Reserved.</p>
+        <p>&copy; 2026 STOR KING. All rights reserved.</p>
     </footer>
 </body>
 </html>
